@@ -1,0 +1,26 @@
+{
+    "name": "Medium Incognito",
+    "version": "1.0.0",
+    "description": "Read Medium Articles in Incognito Mode at a single click.",
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ],
+    "background": {
+        "scripts": [
+            "mediumIncognito.js"
+        ]
+    },
+    "browser_action": {
+        "default_title": "Open Medium in Incognito"
+    },
+    "commands": {
+        "mediumIncognito": {
+            "suggested_key": {
+                "default": "Ctrl+M"
+            },
+            "description": "Open Medium in Incognito"
+        }
+    },
+    "manifest_version": 2
+}
